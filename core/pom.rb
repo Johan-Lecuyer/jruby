@@ -45,7 +45,7 @@ project 'JRuby Core' do
   jar 'com.github.jnr:jnr-unixsocket:0.20', :exclusions => ['com.github.jnr:jnr-ffi']
   jar 'com.github.jnr:jnr-posix:3.0.49', :exclusions => ['com.github.jnr:jnr-ffi']
   jar 'com.github.jnr:jnr-constants:0.9.12', :exclusions => ['com.github.jnr:jnr-ffi']
-  jar 'com.github.jnr:jnr-ffi:2.1.9'
+  jar 'com.github.Johan-Lecuyer:jnr-ffi:2.1.10'
   jar 'com.github.jnr:jffi:${jffi.version}'
   jar 'com.github.jnr:jffi:${jffi.version}:native'
 
