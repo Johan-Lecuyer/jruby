@@ -230,7 +230,7 @@ if $cygwin; then
   MAVEN_WRAPPER_JAR="$(cygpath --path --windows "$MAVEN_WRAPPER_JAR")"
 fi
 
-exec "$JAVACMD" \
+echo "$JAVACMD" \
   $MAVEN_OPTS \
   -classpath $MAVEN_WRAPPER_JAR \
   "-Dmaven.home=${M2_HOME}" "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
