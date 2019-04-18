@@ -28,7 +28,7 @@ project 'JRuby Complete' do
       exclusion 'me.qmx.jitescript:jitescript'
       # HACK workaround a bug in maven + ruby-dsl + felix-plugin
       ['asm', 'asm-commons', 'asm-tree', 'asm-analysis', 'asm-util' ].each do |e|
-        exclusion "org.ow2.asm:#{e}"
+        #exclusion "org.ow2.asm:#{e}"
       end
     end
     jar 'org.jruby:jruby-stdlib:${project.version}'
