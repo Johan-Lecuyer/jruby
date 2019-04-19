@@ -28,9 +28,6 @@ default_gems = [
     ['rdoc', '${rdoc.version}'],
     ['scanf', '1.0.0'],
     ['webrick', '1.4.2'],
-]
-
-bundled_gems = [
     ['bundler', '1.16.6'],
     ['did_you_mean', '1.2.0'],
     ['minitest', '${minitest.version}'],
@@ -39,7 +36,19 @@ bundled_gems = [
     ['rake', '${rake.version}'],
     ['test-unit', '${test-unit.version}'],
     ['xmlrpc', '0.3.0'],
+
 ]
+
+bundled_gems = []
+#    ['bundler', '1.16.6'],
+#    ['did_you_mean', '1.2.0'],
+#    ['minitest', '${minitest.version}'],
+#    ['net-telnet', '0.1.1'],
+#    ['power_assert', '${power_assert.version}'],
+#    ['rake', '${rake.version}'],
+#    ['test-unit', '${test-unit.version}'],
+#    ['xmlrpc', '0.3.0'],
+#]
 
 project 'JRuby Lib Setup' do
 
